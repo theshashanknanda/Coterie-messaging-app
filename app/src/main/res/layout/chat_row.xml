@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="left"
+    android:background="@color/coterie_black">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/coterie_black">
+
+            <TextView
+                android:id="@+id/senderTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shashank"
+                android:fontFamily="@font/poppins"
+                android:textSize="14sp"
+                android:textColor="#007BFF"
+                android:layout_marginRight="12sp"
+                android:layout_marginLeft="14sp"
+                android:layout_marginTop="8sp"/>
+
+            <TextView
+                android:id="@+id/messageTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lorem20"
+                android:fontFamily="@font/poppins"
+                android:textSize="13sp"
+                android:layout_marginBottom="8sp"
+                android:layout_marginRight="12sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="14sp"
+                android:layout_marginTop="4sp"/>
+
+        </LinearLayout>
+
+</LinearLayout>

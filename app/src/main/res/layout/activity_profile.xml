@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.dashboard.activity.ProfileActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:layout_margin="30sp"
+        app:cardCornerRadius="10sp"
+        android:elevation="30sp"
+        android:outlineSpotShadowColor="@color/black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="70">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profileIMV"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_coterie_vector_man1"
+                        android:layout_margin="20sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/profileNameTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="24sp"
+                        android:layout_marginBottom="4sp"/>
+
+                    <TextView
+                        android:id="@+id/communityCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In 0 communities"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:layout_marginLeft="10sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:gravity="end">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/profileEditButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40sp"
+                    android:text="Edit"
+                    android:layout_margin="20sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:background="@drawable/red_button"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Joined communities"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_margin="10sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

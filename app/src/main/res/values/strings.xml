@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Coterie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corrupti error debitis voluptate obcaecati totam alias odit? Consequuntur, dicta? Nam?</string>
+    <string name="lorem60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nam quisquam. Maiores officia accusamus animi. Modi cupiditate debitis odio quos voluptas optio odit maxime, aspernatur, blanditiis sit provident quam magni iusto eos in accusamus? Voluptate est, velit at iusto eligendi rem animi. Perferendis vero dicta tempora animi id quam omnis odit. Quod, iusto aut? Ea fugiat nisi expedita quidem cumque.</string>
+    <string name="lorem120">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nam quisquam. Maiores officia accusamus animi. Modi cupiditate debitis odio quos voluptas optio odit maxime, aspernatur, blanditiis sit provident quam magni iusto eos in accusamus? Voluptate est, velit at iusto eligendi rem animi. Perferendis vero dicta tempora animi id quam omnis odit. Quod, iusto aut? Ea fugiat nisi expedita quidem cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nam quisquam. Maiores officia accusamus animi. Modi cupiditate debitis odio quos voluptas optio odit maxime, aspernatur, blanditiis sit provident quam magni iusto eos in accusamus? Voluptate est, velit at iusto eligendi rem animi. Perferendis vero dicta tempora animi id quam omnis odit. Quod, iusto aut? Ea fugiat nisi expedita quidem cumque.</string>
+</resources>

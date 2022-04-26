@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "246255283435",
+    "project_id": "coterie-2",
+    "storage_bucket": "coterie-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246255283435:android:98900a4bfeb0409e8722ae",
+        "android_client_info": {
+          "package_name": "com.project.coterie2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246255283435-pbq5adatoeo98qeipfv6hkdgjvorjq2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiXz9iEs0zUaEbbKT0o1W2OvR1pO-U9to"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246255283435-pbq5adatoeo98qeipfv6hkdgjvorjq2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

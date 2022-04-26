@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.coterie2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Coterie2">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2317393289250954~4806690659"/>
+
+        <activity
+            android:name=".view.chat.activity.EditCommunity"
+            android:exported="false"
+            android:parentActivityName=".view.dashboard.activity.DashboardActivity"/>
+        <activity
+            android:name=".view.chat.activity.ChatDetails"
+            android:exported="false" />
+        <activity
+            android:name=".view.chat.activity.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.dashboard.activity.CreateCommunity"
+            android:exported="false"
+            android:parentActivityName=".view.dashboard.activity.DashboardActivity" />
+        <activity
+            android:name=".view.dashboard.activity.EditProfileActivity"
+            android:exported="false"
+            android:parentActivityName=".view.dashboard.activity.ProfileActivity" />
+        <activity
+            android:name=".view.dashboard.activity.ProfileActivity"
+            android:exported="false"
+            android:parentActivityName=".view.dashboard.activity.DashboardActivity" />
+        <activity
+            android:name=".view.dashboard.activity.VerificationActivity"
+            android:exported="false"
+            android:parentActivityName=".view.dashboard.activity.DashboardActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".view.dashboard.activity.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.loginandsignup.RegisterActivity"
+            android:exported="false"
+            android:parentActivityName=".view.loginandsignup.MainActivity" />
+        <activity
+            android:name=".view.loginandsignup.LoginActivity"
+            android:exported="false"
+            android:parentActivityName=".view.loginandsignup.MainActivity" />
+        <activity
+            android:name=".view.loginandsignup.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.walkthrough.activity.WalkthroughActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.splashscreen.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter
+                android:icon="@mipmap/ic_launcher"
+                android:label="@string/app_name">
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts" />
+        </activity>
+    </application>
+
+</manifest>

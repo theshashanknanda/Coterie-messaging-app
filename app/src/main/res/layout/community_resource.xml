@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70sp"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground"
+    android:layout_marginTop="10sp"
+    android:layout_marginBottom="5sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="78">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_choosephoto"
+            android:layout_margin="6sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/communityTitleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dog Hub"
+            android:fontFamily="@font/poppins_semibold"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_margin="4sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/lastSenderNameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shashank:  "
+                android:layout_marginLeft="4sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"/>
+
+            <TextView
+                android:id="@+id/lastSenderMessageTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Huskies are human in dog skin" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

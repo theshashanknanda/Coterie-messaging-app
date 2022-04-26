@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.project.coterie.view.walkthrough.activity.WalkthroughActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="15">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/walkthough_viewpager_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80"
+        android:layout_marginBottom="20sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="85"
+            android:weightSum="100"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:gravity="center_vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/walkthrough_dot1_id"
+                    android:layout_width="14sp"
+                    android:layout_height="14sp"
+                    android:background="@drawable/blue_circle"
+                    android:layout_marginLeft="30sp"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/walkthrough_dot2_id"
+                    android:layout_width="14sp"
+                    android:layout_height="14sp"
+                    android:background="@drawable/grey_circle"
+                    android:layout_marginLeft="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:gravity="center_vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/walkthrough_nextButton_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="50sp"
+                    android:text="Next"
+                    android:fontFamily="@font/poppins_extrabold"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_margin="20sp"
+                    android:background="@drawable/blue_button"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

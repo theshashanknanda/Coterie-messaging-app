@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/community_menu_id"
+        android:title="Community"
+        android:icon="@drawable/bottomnav_selecter_community"/>
+
+    <item
+        android:title=""/>
+
+    <item
+        android:id="@+id/joinnew_menu_id"
+        android:title="Join New"
+        android:icon="@drawable/bottomnav_selecter_joinnew"/>
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/walkthough_background_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="@color/coterie_black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/walkthrough_logo_id"
+            android:layout_width="220sp"
+            android:layout_height="220sp"
+            android:src="@drawable/ic_coterie_vector_man1"
+            android:layout_marginTop="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:weightSum="100"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:orientation="vertical"
+            android:gravity="top"
+            android:layout_marginTop="0sp">
+
+            <TextView
+                android:id="@+id/walkthrough_title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                android:textSize="66sp"
+                android:fontFamily="@font/gilroy_black"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20sp"/>
+
+            <TextView
+                android:id="@+id/walkthrough_description_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Don't stop with just the thought"
+                android:layout_margin="20sp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginLeft="32sp"
+                android:layout_marginTop="12sp"/>
+
+            <TextView
+                android:id="@+id/walkthough_swipeTV_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Swipe -->"
+                android:layout_gravity="bottom|end"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginBottom="20sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
